@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
 }
-div classbody
 
 header {
     display: flex;
@@ -27,10 +26,10 @@ nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: lightsalmon;
-    width: 100%
+    width: 100%;
     justify-content: center;
 }
 
@@ -41,6 +40,11 @@ nav ul li {
 nav ul li a {
     color: #0056b3;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+    text-decoration: underline;
 }
 
 .cart img {
@@ -72,6 +76,7 @@ nav ul li a {
     margin: 10px;
     text-align: center;
     width: calc(33.333% - 40px);
+    transition: transform 0.3s ease;
 }
 
 .product-item img {
@@ -90,10 +95,16 @@ nav ul li a {
     margin: 5px 0;
 }
 
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .footer-text {
     text-align: center;
     padding: 80px;
 }
+
 footer {
     background-color: #333;
     color: white;
