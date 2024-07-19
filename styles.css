@@ -1,5 +1,5 @@
 body {
-    color: blue;
+    color: navy;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -29,7 +29,7 @@ nav ul {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    background-color: brown;
+    background-color: gold;
     width: 100%
     justify-content: center;
 }
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: aqua;
+    color: #0056b3;
     text-decoration: none;
 }
 
