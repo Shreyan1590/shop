@@ -9,6 +9,7 @@ div classbody
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -19,17 +20,22 @@ header {
 
 .logo h1 {
     margin: 0;
+    flex: 1 100%;
 }
 
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    background-color: brown;
+    width: 100%
+    justify-content: center;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 5px 10px;
 }
 
 nav ul li a {
