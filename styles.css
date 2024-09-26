@@ -248,6 +248,10 @@ footer p {
 }
 
 @media (max-width: 480px) {
+    header {
+        position: relative;
+    }
+    
     .hero h2 {
         font-size: 1.8rem;
     }
